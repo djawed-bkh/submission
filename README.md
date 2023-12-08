@@ -1,4 +1,4 @@
-# You can execute the following approaches by launching the commands above from the CPAIOR2024 directory.
+# You can execute the following approaches by launching the commands below from the CPAIOR2024 directory.
 
 
 
