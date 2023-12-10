@@ -21,7 +21,7 @@ export  LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH; /bin/time -f "%E real , %U user , %S
 
 ## closedPattern execution:
 ```bash
-export  LD_LIBRARY_PATH=./ClosedPattern:$LD_LIBRARY_PATH; /bin/time -f "%E real , %U user , %S sys"  timeout 43200 ./ClosedPattern/pattern_closed-noavx --dataset ./DATA/<path of a dataset file finishing with _IS.dat> --fqmin <Absolute minimum support> [Optionnal --show]
+export  LD_LIBRARY_PATH=./ClosedPattern:$LD_LIBRARY_PATH; /bin/time -f "%E real , %U user , %S sys"  timeout 43200 ./ClosedPattern/pattern_closed-noavx --dataset ./DATA/<path of a dataset file finishing with _IS.dat> --fmin <Absolute minimum support> [Optionnal --show]
 ```
 
 
